@@ -1,0 +1,372 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ad09c7d2-efab-4012-a18d-674ee0550e5f")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 55.88 97.79) (xy 55.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b05e9be-7222-4bb0-b974-c8deb9d07826")
+	)
+	(wire
+		(pts
+			(xy 43.18 97.79) (xy 43.18 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71dbf197-4903-4587-ae6c-326cae1bf2cb")
+	)
+	(wire
+		(pts
+			(xy 76.2 97.79) (xy 76.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727202d7-3b6e-4464-beac-00e923a5fbbe")
+	)
+	(wire
+		(pts
+			(xy 58.42 97.79) (xy 58.42 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "819fd4b8-4adb-4a2b-860c-53b97125ea9c")
+	)
+	(wire
+		(pts
+			(xy 80.01 97.79) (xy 80.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82694736-9ff3-4f98-9218-89ab5b70a9c0")
+	)
+	(wire
+		(pts
+			(xy 80.01 106.68) (xy 121.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916fe26e-4c50-40cf-ad6c-848a3c886fa8")
+	)
+	(wire
+		(pts
+			(xy 76.2 104.14) (xy 123.19 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9580b91e-3d67-4a5d-b093-8a620089cbd8")
+	)
+	(wire
+		(pts
+			(xy 121.92 106.68) (xy 121.92 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc291efb-a7c4-4bc2-b4a5-7c72f29668ca")
+	)
+	(wire
+		(pts
+			(xy 123.19 104.14) (xy 123.19 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba1253a-92d1-4cf0-bdcd-9c62beb77932")
+	)
+	(sheet
+		(at 116.84 116.84)
+		(size 78.74 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "07164d97-d798-49aa-bba2-d92eab8d4e8a")
+		(property "Sheetname" "Analog Amplifer"
+			(at 116.84 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Amplifer.kicad_sch"
+			(at 116.84 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "UART_RX" input
+			(at 121.92 116.84 90)
+			(uuid "45f42014-4eed-4795-bd6b-f3a106db9863")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Untitled"
+				(path "/ad09c7d2-efab-4012-a18d-674ee0550e5f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 31.75)
+		(size 63.5 66.04)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1ff4d0b4-8813-4476-a36c-d28ff267b073")
+		(property "Sheetname" "MCU"
+			(at 30.48 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 30.48 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "UART_RX" input
+			(at 80.01 97.79 270)
+			(uuid "0d931d6e-0d0b-46eb-ba88-4bf593c74ad6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" input
+			(at 55.88 97.79 270)
+			(uuid "447dab16-c2f9-4ab3-8fcd-c0484e63b7f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_TX" input
+			(at 76.2 97.79 270)
+			(uuid "5ac1f85f-0e59-4b9a-b852-22016cdfb49b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DM" input
+			(at 58.42 97.79 270)
+			(uuid "e68375d9-ecce-4837-8b2c-10ef635c13e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CUR_SEN" input
+			(at 43.18 97.79 270)
+			(uuid "afbbb2e7-8191-4a90-9cbb-1270fd8e4d69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Untitled"
+				(path "/ad09c7d2-efab-4012-a18d-674ee0550e5f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 116.84)
+		(size 67.31 66.04)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5add023e-845f-4db9-9c1a-1a48f6c8ba55")
+		(property "Sheetname" "Power"
+			(at 28.4984 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 97.1046 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CUR_SENSE" output
+			(at 43.18 116.84 90)
+			(uuid "c04bbde0-d915-4bcd-80ed-e261bf350522")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DATA1" bidirectional
+			(at 55.88 116.84 90)
+			(uuid "bb3f319f-84ee-4d09-a87b-8ba4e7df9524")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DATA2" bidirectional
+			(at 58.42 116.84 90)
+			(uuid "cd09ea82-43df-44b6-bb53-a84b25471bb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Untitled"
+				(path "/ad09c7d2-efab-4012-a18d-674ee0550e5f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 34.29)
+		(size 76.2 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e170c99a-257e-4de8-a63c-9467f11c5f52")
+		(property "Sheetname" "Laser"
+			(at 119.38 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Laser.kicad_sch"
+			(at 119.38 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "UART_TX" input
+			(at 123.19 93.98 270)
+			(uuid "9186df78-9691-4828-9155-2025192ba44f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Untitled"
+				(path "/ad09c7d2-efab-4012-a18d-674ee0550e5f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
