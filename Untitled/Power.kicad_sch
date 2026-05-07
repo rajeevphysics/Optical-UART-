@@ -780,6 +780,186 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GF-123-0054:GF-123-0054"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "GF-123-0054"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "GF-123-0054:SW_GF-123-0054"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "May 20, 2003"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "CW Industries"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HIEGHT" "14.96 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "GF-123-0054_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.794 2.1336)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.921 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -1873,6 +2053,16 @@
 		)
 		(uuid "2bdc40a0-1326-47b6-b2c4-65019e417804")
 	)
+	(text "USBC TO COMPUTER SUPPLY VOLTAGE\nDATA1&2 LINES FOR FUTURE USE\n"
+		(exclude_from_sim no)
+		(at 37.592 110.236 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f03facd6-617b-412e-9aae-99b04e7990f1")
+	)
 	(junction
 		(at 247.65 73.66)
 		(diameter 0)
@@ -1952,12 +2142,6 @@
 		(uuid "c623caed-36ef-4692-a486-369ecafe9f58")
 	)
 	(junction
-		(at 85.09 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e91b007a-cb81-4541-8456-14a06d7fe8df")
-	)
-	(junction
 		(at 207.01 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1968,6 +2152,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f766eb5c-bea1-4719-9246-f2023bf6ab6f")
+	)
+	(junction
+		(at 78.74 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8d0edf2-9fc8-4d1d-b1b3-eacbc3117825")
 	)
 	(junction
 		(at 215.9 73.66)
@@ -2093,16 +2283,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 90.17) (xy 85.09 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ed15e36-83b6-43e5-a3dd-cf11963ce498")
-	)
-	(wire
-		(pts
 			(xy 207.01 73.66) (xy 215.9 73.66)
 		)
 		(stroke
@@ -2130,6 +2310,16 @@
 			(type default)
 		)
 		(uuid "2cd3e46d-a18a-4bd7-8014-07cd3e7031ee")
+	)
+	(wire
+		(pts
+			(xy 57.15 90.17) (xy 78.74 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d079df0-c61f-4b6c-aa00-4e98a4bfb578")
 	)
 	(wire
 		(pts
@@ -2263,16 +2453,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 97.79) (xy 85.09 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7438be85-d1da-4dea-ad56-59e5b7ac4b24")
-	)
-	(wire
-		(pts
 			(xy 149.86 73.66) (xy 149.86 90.17)
 		)
 		(stroke
@@ -2323,16 +2503,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 90.17) (xy 93.98 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b28840d-87a5-49b9-a267-28c1c206c8f7")
-	)
-	(wire
-		(pts
 			(xy 250.19 139.7) (xy 250.19 137.16)
 		)
 		(stroke
@@ -2343,6 +2513,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 90.17) (xy 93.98 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e18add-ade3-41f4-85d9-b756c0579cb2")
+	)
+	(wire
+		(pts
 			(xy 132.08 118.11) (xy 124.46 118.11)
 		)
 		(stroke
@@ -2350,16 +2530,6 @@
 			(type default)
 		)
 		(uuid "95ff3f96-1c8b-4335-a2ac-89eca7dcd99e")
-	)
-	(wire
-		(pts
-			(xy 85.09 97.79) (xy 85.09 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "996318a4-04c0-4d7a-9b6b-5d35d01cce51")
 	)
 	(wire
 		(pts
@@ -2403,6 +2573,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 97.79) (xy 78.74 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35893ec-1c7f-4500-8158-08a38fea5a7d")
+	)
+	(wire
+		(pts
 			(xy 247.65 73.66) (xy 256.54 73.66)
 		)
 		(stroke
@@ -2423,7 +2603,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 90.17) (xy 109.22 90.17)
+			(xy 106.68 90.17) (xy 109.22 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2500,6 +2680,16 @@
 			(type default)
 		)
 		(uuid "e67de18d-3e32-4bc7-a1a0-53da10863675")
+	)
+	(wire
+		(pts
+			(xy 57.15 97.79) (xy 78.74 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45830ac-89c5-401c-83ce-c059bb7bd25e")
 	)
 	(wire
 		(pts
@@ -3666,6 +3856,115 @@
 		)
 	)
 	(symbol
+		(lib_id "GF-123-0054:GF-123-0054")
+		(at 86.36 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56fd253b-12ac-4f54-9955-7f87be931a87")
+		(property "Reference" "S1"
+			(at 86.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GF-123-0054"
+			(at 86.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "USB-c:SW_GF-123-0054"
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "May 20, 2003"
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CW Industries"
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HIEGHT" "14.96 mm"
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94348545-9c0a-4cd0-8c9a-d487d4a8235a")
+		)
+		(pin "2"
+			(uuid "262259b0-48ef-403e-b89a-be8f4217dd95")
+		)
+		(instances
+			(project "Untitled"
+				(path "/ad09c7d2-efab-4012-a18d-674ee0550e5f/5add023e-845f-4db9-9c1a-1a48f6c8ba55"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 137.16 127 0)
 		(unit 1)
@@ -4819,7 +5118,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 97.79 90.17 90)
+		(at 102.87 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4828,7 +5127,7 @@
 		(fields_autoplaced yes)
 		(uuid "b088aa25-8be2-4485-9971-4cdad74c5546")
 		(property "Reference" "F1"
-			(at 97.79 83.82 90)
+			(at 102.87 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4836,7 +5135,7 @@
 			)
 		)
 		(property "Value" "Polyfuse"
-			(at 97.79 86.36 90)
+			(at 102.87 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4844,7 +5143,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 102.87 88.9 0)
+			(at 107.95 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,7 +5153,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 90.17 0)
+			(at 102.87 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4863,7 +5162,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 97.79 90.17 0)
+			(at 102.87 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)

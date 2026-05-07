@@ -188,6 +188,9 @@
       ],
       "track_widths": [
         0.0,
+        0.00505,
+        0.0505,
+        0.1012,
         0.2032,
         0.381,
         0.508,
@@ -701,6 +704,10 @@
     [
       "07164d97-d798-49aa-bba2-d92eab8d4e8a",
       "Analog Amplifer"
+    ],
+    [
+      "a8ce7fc7-f6d7-496d-8cd9-b82d09849cf6",
+      "Physical Switches & External Clock"
     ]
   ],
   "text_variables": {}
