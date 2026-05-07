@@ -2144,6 +2144,16 @@
 		)
 		(uuid "111be437-c8dc-43ea-913a-236261a11c70")
 	)
+	(text "Waiting on email reply to complete the numbers for these"
+		(exclude_from_sim no)
+		(at 76.962 131.064 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7032c5cf-7217-4dfe-8919-43626d630cab")
+	)
 	(junction
 		(at 67.31 113.03)
 		(diameter 0)

@@ -2053,6 +2053,16 @@
 		)
 		(uuid "2bdc40a0-1326-47b6-b2c4-65019e417804")
 	)
+	(text "Polyfuse and shunt resistor will be\ncompleted when amplifer is completed\n"
+		(exclude_from_sim no)
+		(at 95.758 74.676 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ef5a8c2-c2e9-4bf1-92d2-9ae77d15f28e")
+	)
 	(text "USBC TO COMPUTER SUPPLY VOLTAGE\nDATA1&2 LINES FOR FUTURE USE\n"
 		(exclude_from_sim no)
 		(at 37.592 110.236 0)
