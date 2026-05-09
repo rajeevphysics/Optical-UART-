@@ -47,6 +47,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 97.79) (xy 58.42 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b02505-31f1-4cb9-bb69-9c980fe322e9")
+	)
+	(wire
+		(pts
 			(xy 63.5 97.79) (xy 63.5 102.87)
 		)
 		(stroke
@@ -54,6 +64,16 @@
 			(type default)
 		)
 		(uuid "30dbc023-45fe-4c97-a807-365121083d54")
+	)
+	(wire
+		(pts
+			(xy 55.88 97.79) (xy 55.88 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b34226-177c-4b6a-ae47-52c557249f2d")
 	)
 	(wire
 		(pts
@@ -87,16 +107,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 97.79) (xy 55.88 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b05e9be-7222-4bb0-b974-c8deb9d07826")
-	)
-	(wire
-		(pts
 			(xy 43.18 97.79) (xy 43.18 125.73)
 		)
 		(stroke
@@ -124,16 +134,6 @@
 			(type default)
 		)
 		(uuid "731e8ae3-f3f9-48df-b881-64b595af36d7")
-	)
-	(wire
-		(pts
-			(xy 58.42 97.79) (xy 58.42 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "819fd4b8-4adb-4a2b-860c-53b97125ea9c")
 	)
 	(wire
 		(pts
@@ -803,9 +803,9 @@
 				(justify right)
 			)
 		)
-		(pin "DATA1" bidirectional
-			(at 55.88 125.73 90)
-			(uuid "bb3f319f-84ee-4d09-a87b-8ba4e7df9524")
+		(pin "DN" bidirectional
+			(at 58.42 125.73 90)
+			(uuid "5b72c3be-d6d0-4017-86a5-181f9dd94c76")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -813,9 +813,9 @@
 				(justify right)
 			)
 		)
-		(pin "DATA2" bidirectional
-			(at 58.42 125.73 90)
-			(uuid "cd09ea82-43df-44b6-bb53-a84b25471bb4")
+		(pin "DP" bidirectional
+			(at 55.88 125.73 90)
+			(uuid "faca3ba1-a5aa-4310-9911-c4deaab310e0")
 			(effects
 				(font
 					(size 1.27 1.27)
